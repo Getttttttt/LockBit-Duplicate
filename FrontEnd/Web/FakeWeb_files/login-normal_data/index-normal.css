@@ -1,0 +1,418 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html,body {
+	font-size: 12px;
+	color: #333333;
+	position: relative;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.auto {
+	height: auto;
+	overflow: hidden;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.banner {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.banner ul {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.banner ul li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.banner ul li .banner-img {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	left: 0;
+	top: 0;
+}
+.banner ul li:first-child {
+	display: block;
+}
+
+.banner-news {
+	width: 600px;
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+}
+.banner-news dl dt {
+	padding: 5px;
+	background: rgba(0,0,0, .2);
+}
+.banner-news dl dt a {
+	font-size: 32px;
+	color: #fff;
+	line-height: 40px;
+}
+.banner-news dl dd {
+	margin-top: 5px;
+	padding: 5px;
+	background: rgba(0,0,0, .2);
+	font-size: 13px;
+	line-height: 17px;
+	color: #fff;
+}
+
+.banner ol {
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	text-align: center;
+}
+.banner ol li {
+	width: 50px;
+	height: 4px;
+	background: rgba(0,0,0, .4);
+	display: inline-block;
+	cursor: pointer;
+}
+.banner ol li.active {
+	background: #fff;
+}
+
+
+.sidebar {
+	width: 370px;
+	background: rgba(255, 255, 255, .9);
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	overflow-y: auto;
+}
+.sidebar-con {
+	width: 320px;
+	padding: 25px;
+	position: relative;
+	padding-bottom: 120px;
+	min-height: calc(100% - 145px);
+}
+
+.logo {
+	height: 45px;
+}
+.logo img {
+	height: 45px;
+}
+.lan {
+	line-height: 45px;
+	font-size: 14px;
+}
+.lan a {
+	font-size: 14px;
+	color: #666;
+}
+
+.title {
+	margin-top: 65px;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.title p {
+	font-size: 24px;
+}
+
+.content {
+	margin-top: 25px;
+}
+.content-title a {
+	display: block;
+	width: 50%;
+	height: 39px;
+	text-align: center;
+	line-height: 39px;
+	border-bottom: 1px solid #D9D9D9;
+	float: left;
+	font-size: 16px;
+	color: #999;
+}
+.content-title a.active {
+	height: 38px;
+	line-height: 38px;
+}
+.content-con-box {
+	margin-top: 30px;
+}
+.item {
+	width: 100%;
+}
+.item-box {
+	width: 100%;
+	float: left;
+}
+.item-label {
+	width: 40px;
+	height: 40px;
+	border-radius: 4px 0 0 4px;
+	background: #D7D7D7;
+	float: left;
+	text-align: center;
+}
+.item-label img {
+	width: 30px;
+	margin: 5px auto 0;
+}
+.item-box input {
+	float: left;
+	width: 279px;
+	background: #fff;
+	border: 1px solid #d7d7d7;
+	border-left: none;
+	height: 38px;
+	border-radius: 0 4px 4px 0;
+	text-indent: 10px;
+	outline: none;
+}
+.item-box input::-webkit-input-placeholder{
+	color:#d7d7d7;
+}
+.item-validate {
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	color: #BE3221;
+}
+
+.item-code .item-box {
+	width: 216px;
+}
+.item-code .item-box input {
+	width: 175px;
+}
+.item-code img.code {
+	width: 94px;
+	height: 40px;
+	float: right;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.submit-btn {
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.links {
+	margin-top: 24px;
+	text-align: right;
+	font-size: 14px;
+}
+.links a {
+	margin-left: 15px;
+}
+
+.getcode {
+	display: block;
+	width: 92px;
+	height: 38px;
+	float: right;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+}
+
+.qrcode {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 5px auto 0;
+}
+.qrcode img {
+	width: 200px;
+	height: 200px;
+}
+.refresh {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(255, 255, 255, .8);
+	text-align: center;
+}
+.refresh p {
+	margin-top: 45px;
+	line-height: 24px;
+	font-size: 16px;
+}
+.refresh-btn {
+	width: 132px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	color: #fff;
+	height: 40px;
+	cursor: pointer;
+	margin-top: 25px;
+}
+
+.qrcode-tips {
+	text-align: center;
+	line-height: 20px;
+	margin-top: 35px;
+}
+
+.footer {
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+	width: 100%;
+	line-height: 22px;
+}
+
+.rules{
+    margin-top:5px;
+}
+.rules a {
+    text-decoration: underline;
+    color: #003777;
+}
+
+.dialog {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+	display: none;
+	left: 0;
+	top: 0;
+}
+.dialog-box {
+    width: 900px;
+    height: 540px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 2px;
+	left: 50%;
+	top: 50%;
+	margin-left: -450px;
+	margin-top: -270px;
+	position: absolute;
+}
+
+.dialog-title {
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	border-bottom: 1px solid #eee;
+}
+.dialog-title span {
+	margin-left: 24px;
+	font-size: 16px;
+	color: rgba(0,0,0,0.85);
+	font-weight: 600;
+}
+.dialog-title a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: rgba(0,0,0,0.45);
+	float: right;
+	margin: 8px 14px 0 0;
+	font-size: 14px;
+}
+.dialog-con {
+	width: 852px;
+	margin: 10px 24px;
+	height: 412px;
+	overflow: hidden;
+	overflow-y: auto;
+	font-size: 14px;
+	color: rgba(0,0,0,0.65);
+	line-height: 22px;
+}
+.dialog-footer {
+	width: 100%;
+	border-top: 1px solid #eee;
+	height: 50px;
+	line-height: 50px;
+}
+.dialog-footer-left {
+	float: left;
+	font-size: 14px;
+	color: rgba(0,0,0,0.65);
+	margin-left: 24px;
+}
+.dialog-footer-left span {
+	color: red;
+}
+.dialog-footer-right {
+	float: right;
+}
+.dialog-footer-right a {
+	display: inline-block;
+	height: 30px;
+	border: 1px solid #eee;
+	padding: 0 20px;
+	line-height: 30px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.65);
+	margin-left: 6px;
+}
+.dialog-footer-right a.dialog-footer-btn2 {
+	margin-right: 24px;
+	color: #fff;
+	background: rgba(24,144,255,.5);
+	border: none;
+	height: 32px;
+	line-height: 32px;
+}
+.dialog-footer-right a.dialog-footer-btn3 {
+	background: rgba(24,144,255,1);
+	/* display: none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+

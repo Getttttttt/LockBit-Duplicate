@@ -1,0 +1,30 @@
+
+.default-color {
+	color: #005BAC!important;
+}
+
+.default-border {
+	border-bottom: 2px solid #005BAC!important;
+}
+
+.default-border-1px {
+	border: 1px solid #005BAC!important;
+}
+
+.default-bgcolor {
+	background-color: #005BAC!important;
+}
+
+.default-disabled {
+	color: grey !important;
+	border: 1px solid grey !important;
+}
+
+.van-cell:not(:last-child)::after {
+	border-bottom: 1px solid #005BAC!important;
+}
+
+.van-button--primary {
+  background-color: #005BAC;
+  border: 1px solid #005BAC;
+}

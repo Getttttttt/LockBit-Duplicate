@@ -1,0 +1,97 @@
+html, body, iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+}
+
+form {
+    padding: 8px;
+}
+
+form label {
+    font-weight: 600;
+    width: 100%;
+}
+
+form input {
+    font-weight: 100;
+}
+
+.container {
+    top: 50%;
+    margin-top: -250px;
+    position: relative;
+    padding: 0;
+}
+
+@media (min-width: 768px)
+{
+    .border {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.service {
+    font-size: large;
+    text-align: center;
+    padding: 6px;
+}
+
+.system {
+    color: grey;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.hint {
+    color: grey;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: xx-small;
+}
+
+.captcha-input {
+    width: 60%;
+    float: left;
+}
+
+.captcha-img {
+    max-width: 48%;
+    max-height: 34px;
+    float: right;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-login {
+    margin-top: 20px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    height: 35px;
+}
+
+.sm-btn {
+    border-radius: 4px !important;
+    width: 100% !important;
+    font-weight: 500;
+}
+
+.sm-btn #rectMask {
+    width: 100% !important;
+}
+
+#sm-btn-bg {
+    width: 100% !important;
+}
