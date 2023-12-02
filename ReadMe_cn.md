@@ -1,7 +1,5 @@
 # ReadMe.md
 
-助教学长学姐好！这是大作业课程代码的说明文件，第二版代码已更新上传至github：https://github.com/Getttttttt/LockBit-Duplicate/
-
 代码包括前端和后端两部分：
 
 ## 2023.12.02 第二版更新
